@@ -1,0 +1,7 @@
+{
+  "appId": "aex.app",
+  "appName": "App Aggregator Exchange",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
