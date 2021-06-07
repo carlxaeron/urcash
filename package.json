@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "E-Wallet",
   "productName": "G2GBox",
-  "author": "Thrive Media",
+  "author": "UCC",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",

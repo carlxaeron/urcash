@@ -2,7 +2,7 @@
   "name": "aext",
   "version": "0.0.1",
   "description": "E-Wallet",
-  "author": "Thrive Media",
+  "author": "UCC",
   "private": true,
   "dependencies": {
     "@capacitor/cli": "^2.0.0",

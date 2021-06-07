@@ -73,7 +73,7 @@
       </q-toolbar>
     </q-header>
 <q-footer elevated  class = "bg-secondary q-pt-md q-pb-md" >
-  <center><span class= "q-mt-md text-white">UrCASH Digital Wallet</span><br/>
+  <center><span class= "q-mt-md text-white">G2GBox Digital Wallet</span><br/>
 <span>UCC Corp | Copyright 2020</span></center>
 </q-footer>
       <q-drawer
