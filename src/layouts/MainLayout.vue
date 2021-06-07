@@ -277,10 +277,10 @@ export default {
       })
     },
     gotoTerms () {
-      window.open('https://terms.urcash.digital/urcashtnc.pdf', '_blank')
+      // window.open('https://terms.urcash.digital/urcashtnc.pdf', '_blank')
     },
     gotoPrivacy () {
-      window.open('https://terms.urcash.digital/urcashprivacy.pdf', '_blank')
+      // window.open('https://terms.urcash.digital/urcashprivacy.pdf', '_blank')
     },
     getUser () {
       this.$axios.post('user', {

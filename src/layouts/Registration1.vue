@@ -457,8 +457,8 @@ export default {
     }
   },
   created () {
-    window.open('https://terms.urcash.digital/urcashprivacy.pdf', '_blank')
-    window.open('https://terms.urcash.digital/urcashtnc.pdf', '_blank')
+    // window.open('https://terms.urcash.digital/urcashprivacy.pdf', '_blank')
+    // window.open('https://terms.urcash.digital/urcashtnc.pdf', '_blank')
   }
 }
 </script>
