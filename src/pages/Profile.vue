@@ -223,7 +223,7 @@ export default {
       ).then(response => {
         this.fname = response.data.results.user.first_name
         this.id = response.data.results.user.id
-        this.imUrl = 'https://api.g2g.com/' + response.data.results.user.profile_picture
+        this.imUrl = 'https://api.markturtlehouse.dev/' + response.data.results.user.profile_picture
         this.lname = response.data.results.user.last_name
         this.mname = response.data.results.user.middle_name
         this.birthdate = response.data.results.birthdate

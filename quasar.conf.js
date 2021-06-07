@@ -190,7 +190,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'urcash'
+        appId: 'g2gbox'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

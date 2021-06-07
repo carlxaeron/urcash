@@ -298,7 +298,7 @@ export default {
         this.screen_lock = false
         this.$q.sessionStorage.set('shop_id', response.data.results.shop.id)
         this.$q.sessionStorage.set('voucher_id', response.data.results.voucher_account.id)
-        this.imUrl = 'https://api.g2g.com/' + response.data.results.user.profile_picture
+        this.imUrl = 'https://api.markturtlehouse.dev/' + response.data.results.user.profile_picture
         this.Firstname = response.data.results.user.first_name
         this.Lastname = response.data.results.user.last_name
         this.Email = response.data.results.user.email
