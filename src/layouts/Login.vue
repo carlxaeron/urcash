@@ -11,7 +11,7 @@
           class = "align-center"
        />
         </div>
-      <h4 class = "text-white text-center">Welcome to URCASH!</h4>
+      <h4 class = "text-white text-center">Welcome to G2GBox!</h4>
   <div class = "row">
       <p style="font-size: 18px;" class="float-left text-white">Mobile Number</p>
   </div>

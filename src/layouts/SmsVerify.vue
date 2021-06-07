@@ -10,7 +10,7 @@
     <div class="row justify-center">
       <div class="col-8 text-center">
         <span class= "text-h4" style="color: #fff;">ACCOUNT VERIFICATION</span>
-        <p class = "text-white">Thank you for using UrCash! Please verify your number. Enter the code we sent to your mobile.</p>
+        <p class = "text-white">Thank you for using G2GBox! Please verify your number. Enter the code we sent to your mobile.</p>
       </div>
 
       <div class="q-pa-md inp" style="max-width: 300px;">

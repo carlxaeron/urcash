@@ -5,7 +5,7 @@
    <div class = "row flex flex-center">
    <q-card flat class="my-card">
       <q-card-section>
-        <div class="text-h5 text-info text-center">HI {{ fname }} WELCOME TO <b>URCASH</b>!</div>
+        <div class="text-h5 text-info text-center">HI {{ fname }} WELCOME TO <b>G2GBox</b>!</div>
       </q-card-section>
       <q-separator />
        <q-card-section>

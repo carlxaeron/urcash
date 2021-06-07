@@ -1,6 +1,6 @@
 import axios from 'axios'
 const axiosInstance = axios.create({
-  baseURL: 'https://api.urcash.digital/api/'
+  baseURL: 'https://api.g2g.com/api/'
 })
 export default ({ Vue }) => {
   Vue.prototype.$axios = axiosInstance

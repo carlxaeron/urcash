@@ -9,7 +9,7 @@
        />
    </div>
 <span class="text-h4 text-bold text-white flex flex-center q-px-xl">CONGRATULATIONS!</span>
-    <span class="text-h5 text-white flex flex-center">WELCOME TO URCASH!</span>
+    <span class="text-h5 text-white flex flex-center">WELCOME TO G2GBox!</span>
 
           <div   class = "flex flex-center q-mx-lg q-mt-xl">
            <q-list>

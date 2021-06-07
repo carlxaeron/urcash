@@ -274,10 +274,10 @@
         </q-input>
       </div>
       <div class="col-12">
-         <q-toggle v-model="accept" class="text-bold" label="I have read UrCash Wallet's Terms and Condition" style="color:white" />
+         <q-toggle v-model="accept" class="text-bold" label="I have read G2GBox Wallet's Terms and Condition" style="color:white" />
         </div>
          <div class="col-12">
-         <q-toggle v-model="accept1" class="text-bold" label="I have read UrCash Wallet's Privacy Statement" style="color:white" />
+         <q-toggle v-model="accept1" class="text-bold" label="I have read G2GBox Wallet's Privacy Statement" style="color:white" />
         </div>
       <div class="col-12">
      <q-btn rounded v-if ="accept === true && accept1 === true  " @click = "reg3_sub()" style="width:100%; font-size: 20px;" class="q-my-md" color="primary" label="REGISTER" text-color="white"/>

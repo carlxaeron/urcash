@@ -165,7 +165,7 @@
           <div class="absolute-bottom bg-transparent">
             <div class = "row">
               <div class = "col q-pt-lg q-pl-lg">
-            <div class="text-white myfont text-bold" style = "font-size:14px;">URCASH WALLET</div>
+            <div class="text-white myfont text-bold" style = "font-size:14px;">G2GBox WALLET</div>
             <div class="text-white myfont" style = "font-size:14px;">{{ Firstname }} {{ Lastname }}&nbsp;</div>
             <p class="text-white" style = "font-size:12px;"> {{ mynumber }} <br> {{ Email }}<br>
            <span class = "text-bold">Business Name</span><br>
@@ -190,7 +190,7 @@
               {{ address }}
             </span>
                </div>
-           <span style="font-size:11px;">Powered by UrCash</span>
+           <span style="font-size:11px;">Powered by G2GBox</span>
               </div>
               <div class = "col q-pt-md q-mb-md q-ml-md"  @click ="viewQr()">
                <qriously :value="text" :size="100" />
@@ -298,7 +298,7 @@ export default {
         this.screen_lock = false
         this.$q.sessionStorage.set('shop_id', response.data.results.shop.id)
         this.$q.sessionStorage.set('voucher_id', response.data.results.voucher_account.id)
-        this.imUrl = 'https://api.urcash.digital/' + response.data.results.user.profile_picture
+        this.imUrl = 'https://api.g2g.com/' + response.data.results.user.profile_picture
         this.Firstname = response.data.results.user.first_name
         this.Lastname = response.data.results.user.last_name
         this.Email = response.data.results.user.email

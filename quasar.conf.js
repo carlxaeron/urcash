@@ -123,8 +123,8 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'UrCash',
-        short_name: 'UrCash',
+        name: 'G2GBox',
+        short_name: 'G2GBox',
         description: 'E-Wallet',
         display: 'standalone',
         orientation: 'portrait',
