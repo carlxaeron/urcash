@@ -43,7 +43,7 @@
         />
          </div>
     <div v-if="page_load === false">
-    <q-header  class = "bg-secondary">
+    <q-header  class = "bg-white shadow-1">
       <q-toolbar>
 
         <q-btn
