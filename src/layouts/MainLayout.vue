@@ -57,11 +57,11 @@
         />
 
         <q-toolbar-title>
- <q-img
-      alt=""
-      src="../assets/head.png"
-      style = "width:250px;"
-    />
+          <q-img
+                alt=""
+                src="../assets/head.png"
+                style = "width:250px;"
+              />
         </q-toolbar-title>
 
         <q-item-section class="absolute-right" avatar>
@@ -298,7 +298,7 @@ export default {
         this.screen_lock = false
         this.$q.sessionStorage.set('shop_id', response.data.results.shop.id)
         this.$q.sessionStorage.set('voucher_id', response.data.results.voucher_account.id)
-        this.imUrl = 'https://api.markturtlehouse.dev/' + response.data.results.user.profile_picture
+        this.imUrl = (process.env.DEV ? process.env.API_URL_DEV : process.env.API_URL) + response.data.results.user.profile_picture
         this.Firstname = response.data.results.user.first_name
         this.Lastname = response.data.results.user.last_name
         this.Email = response.data.results.user.email
