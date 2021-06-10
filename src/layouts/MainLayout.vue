@@ -57,11 +57,11 @@
         />
 
         <q-toolbar-title>
- <q-img
-      alt=""
-      src="../assets/head.png"
-      style = "width:250px;"
-    />
+          <q-img
+                alt=""
+                src="../assets/head.png"
+                style = "width:250px;"
+              />
         </q-toolbar-title>
 
         <q-item-section class="absolute-right" avatar>
